@@ -10,7 +10,7 @@ import java.util.Optional;
 public interface PayementBroI {
     void creatBD();
 
-    void save(BankBro bankBro);
+    void save (BankBro bankBro);
 
     int update(BankBro bankBro);
 
